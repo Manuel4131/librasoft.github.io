@@ -12,6 +12,8 @@
 /* ==========================================================================
    Start of custom Webflow CSS
    ========================================================================== */
+   
+
 .w-commerce-commercecartwrapper {
   display: inline-block;
   position: relative;
@@ -3113,8 +3115,7 @@ blockquote {
 }
 .mid-section{
 	min-height: 550px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.17)), to(#222)), url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg");
-  background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.17), #222), url("mt1.webp");
+  background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.17), #222), url("https://c02.purpledshub.com/uploads/sites/41/2021/08/mountains-7ddde89.jpg");
   background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
 }
@@ -3327,7 +3328,7 @@ blockquote {
 	height: 0px;
 	min-height: 440px;
 	border-radius: 5px;
-	background-image: url("myAvatar.png");
+	background-image: url("https://i.imgur.com/LnBrm5u.png");
 	background-position: 50% 10%;
 	background-size: 100%;
 	background-repeat: no-repeat;

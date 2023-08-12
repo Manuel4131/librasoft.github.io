@@ -2700,14 +2700,6 @@ blockquote {
   padding-left: 15px;
 }
 
-.mid-container {
-  max-width: 1200px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
 .container.contact {
   position: absolute;
   left: 0%;
@@ -2966,11 +2958,10 @@ blockquote {
 }
 
 .hero-heading {
-  width: 60%;
+  width: 35%;
   color: #f9f9f9;
-  font-size: 60px;
+  font-size: 62px;
   line-height: 1.2;
-  font-family: 標楷體;
 }
 
 .hero-heading.anout-hero-heading {
@@ -2981,8 +2972,7 @@ blockquote {
   width: 35%;
   margin-bottom: 25px;
   color: #f9f9f9;
-  font-size: 24px;
-  font-family: 標楷體;
+  font-size: 18px;
 }
 
 .support-section {
@@ -3042,10 +3032,6 @@ blockquote {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-}
-
-.end-line{
-	float: right;
 }
 
 .support-column {
@@ -3111,16 +3097,9 @@ blockquote {
   right: -14%;
   bottom: -31%;
 }
-.mid-section{
-	min-height: 550px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.17)), to(#222)), url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg");
-  background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.17), #222), url("mt1.webp");
-  background-position: 0px 0px, 50% 50%;
-  background-size: auto, cover;
-}
 
 .safe-section {
-  min-height: 750px;
+  min-height: 550px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(34, 34, 34, 0.17)), to(#222)), url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg");
   background-image: linear-gradient(180deg, rgba(34, 34, 34, 0.17), #222), url("https://assets.website-files.com/5e7ff3ec0c4ef4c974fa99e3/5e83fb3a6948e1f05b20527f_nathan-dumlao-pLoMDKtl-JY-unsplash.jpg");
   background-position: 0px 0px, 50% 50%;
@@ -3145,38 +3124,7 @@ blockquote {
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
-  align-items: center;
-}
-
-.mid-safe-wrapper {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 550px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: center;
-}
-
-.mid-safe-heading {
-  width: 45%;
-  color: #f9f9f9;
-  font-size: 45px;
-  line-height: 1.2;
-  text-align: center;
-  font-family: 標楷體;
-  
+  align-items: flex-end;
 }
 
 .safe-heading {
@@ -3184,26 +3132,15 @@ blockquote {
   color: #f9f9f9;
   font-size: 45px;
   line-height: 1.2;
-  text-align: center;
-  font-family: 標楷體;
+  text-align: right;
 }
 
 .safe-paragraph {
-  /* width: 35%;*/ // which won't break one line to 2 lines
+  width: 35%;
   margin-bottom: 25px;
   color: #f9f9f9;
-  font-size: 36px;
-  text-align: center;
-  font-family: 標楷體;
-}
-
-.mid-safe-paragraph {
-  width: 70%;
-  margin-bottom: 25px;
-  color: #f9f9f9;
-  font-size: 36px;
-  font-family: 標楷體;
-  text-align: center;
+  font-size: 18px;
+  text-align: right;
 }
 
 .products-section {
@@ -3312,25 +3249,19 @@ blockquote {
   justify-content: flex-end;
 }
 
-
-.intro_p{
-	font-size:23px;
-	font-family:標楷體;
-}
 .shop-local-left {
-	position: absolute;
-	left: 5%;
-	top: 6%;
-	right: auto;
-	bottom: 0%;
-	width: 25%;
-	height: 0px;
-	min-height: 440px;
-	border-radius: 5px;
-	background-image: url("myAvatar.png");
-	background-position: 50% 10%;
-	background-size: 100%;
-	background-repeat: no-repeat;
+  position: absolute;
+  left: 0%;
+  top: 6%;
+  right: auto;
+  bottom: 0%;
+  width: 30%;
+  height: 0px;
+  min-height: 440px;
+  border-radius: 5px;
+  background-image: url("https://imgur.com/LnBrm5u");
+  background-position: 69% 80%;
+  background-size: 270%;
 }
 
 .shop-local-right {
@@ -3338,7 +3269,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 80%;
   padding: 45px;
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
@@ -3563,7 +3494,6 @@ blockquote {
   padding-bottom: 0px;
   background-color: #222;
   color: #f9f9f9;
-  
 }
 
 .contact-hero-bg-wrapper {
@@ -4114,7 +4044,6 @@ blockquote {
   }
   .hero-heading {
     width: 60%;
-	
   }
   .hero-paragraph {
     width: 55%;
@@ -4666,4 +4595,30 @@ blockquote {
     align-items: center;
     text-align: center;
   }
+}
+
+.paragraph_p{
+	font-size:38px;
+	text-indent: 100px;
+line-height: 2.0em;
+}
+
+.graph1{
+	width:800px;
+	margin-left: 20%;
+}
+
+.graph2{
+	width:800px;
+	float: right;
+}
+
+.cap1{
+	margin-left: 20%;
+}
+
+.course_a{
+	color: black !important;
+	text-decoration:none !important;
+
 }
