@@ -4668,3 +4668,14 @@ blockquote {
     text-align: center;
   }
 }
+.icon_text{
+	float: right;
+font-family: calibri;
+font-size: 20px;
+}
+
+
+<img width="50px" src="index_files/libra_icon.jpg">
+<span class="icon_text">Libra程式學院</span>
+
+href="index.htm" target="blank_"
